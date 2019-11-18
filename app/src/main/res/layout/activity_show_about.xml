@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowAboutActivity"
+    android:background="@drawable/bg"
+    >
+
+       <ImageView
+        android:id="@+id/img_1"
+        android:layout_width="75dp"
+        android:layout_height="143dp"
+        android:src="@drawable/ramasandi" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/img_1"
+        android:text="Nama  : Rhama Shandy"
+        android:paddingTop="45dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/img_1"
+        android:text="NPM   : 1717051018"
+        android:paddingTop="65dp"/>
+
+    <ImageView
+        android:id="@+id/img_2"
+        android:layout_width="75dp"
+        android:layout_height="143dp"
+        android:layout_below="@+id/img_1"
+        android:src="@drawable/taufik"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_1"
+        android:layout_toRightOf="@+id/img_2"
+        android:text="Nama  : Taufik Jaka Lesmana"
+        android:paddingTop="45dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_1"
+        android:layout_toRightOf="@+id/img_2"
+        android:text="NPM    : 1717051068"
+        android:paddingTop="65dp"/>
+
+    <ImageView
+        android:id="@+id/img_3"
+        android:layout_width="75dp"
+        android:layout_height="143dp"
+        android:layout_below="@+id/img_2"
+        android:src="@drawable/riki"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/img_3"
+        android:layout_below="@+id/img_2"
+        android:text="Nama  : Riki Sofyan"
+        android:paddingTop="45dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/img_3"
+        android:layout_below="@+id/img_2"
+        android:text="NPM    : 1717051067"
+        android:paddingTop="65dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/img_4"
+        android:layout_below="@+id/img_3"
+        android:text="Nama  : M Rifki Kurniawan"
+        android:paddingTop="45dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/img_4"
+        android:layout_below="@+id/img_3"
+        android:text="NPM    : 1717051041"
+        android:paddingTop="65dp"/>
+    <ImageView
+        android:id="@+id/img_4"
+        android:layout_width="75dp"
+        android:layout_height="143dp"
+        android:layout_below="@+id/img_3"
+        android:src="@drawable/yimyam"/>
+
+
+
+
+
+
+
+
+</RelativeLayout>

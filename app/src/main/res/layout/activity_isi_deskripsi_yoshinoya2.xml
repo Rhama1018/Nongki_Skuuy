@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="YOSHINOYA"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/warna">
+        </TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="265dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/fotoyoshinoya"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DESKRPSI : "
+            android:textSize="35dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/deskripsi_kobar"
+            android:textSize="20dp"
+            android:textColor="@color/warna">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ALAMAT"
+            android:textStyle="bold"
+            android:textSize="35dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt_mcd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20dp">
+        </TextView>
+
+        <Button
+            android:id="@+id/btn_show_info_mcd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="Sekilas Tentang Yoshinoya"
+            android:textSize="15dp"/>
+
+        <FrameLayout
+            android:id="@+id/frame_layout2"
+            android:layout_width="350dp"
+            android:layout_height="320dp" />
+
+
+
+    </LinearLayout>
+</ScrollView>

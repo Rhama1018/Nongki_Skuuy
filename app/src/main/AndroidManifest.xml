@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.project_akhir">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logonongki"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logonongki"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".isi_deskripsi_kulo"></activity>
+        <activity android:name=".deskripsi_kulo" />
+        <activity android:name=".menu_kulo" />
+        <activity android:name=".isi_deskripsi_yoshinoya" />
+        <activity android:name=".menu_yoshinoya" />
+        <activity android:name=".deskripsi_yoshinoya" />
+        <activity android:name=".isi_deskripsi_kobar" />
+        <activity android:name=".deskripsi_kobar" />
+        <activity android:name=".menu_kobar" />
+        <activity android:name=".isi_deskripsi_mcd" />
+        <activity android:name=".menu_mcd" />
+        <activity android:name=".deskripsi_mcd" />
+        <activity android:name=".menu_kfc" />
+        <activity android:name=".isi_deskripsi_kfc" />
+        <activity android:name=".deskripsi_kfc" />
+        <activity android:name=".MenuKopiActivity" />
+        <activity android:name=".kopiaceh_deskripsi" />
+        <activity android:name=".DeskripsiLokasi" />
+        <activity android:name=".ListLocation" />
+        <activity android:name=".settingActivity" />
+        <activity android:name=".HelpActivity" />
+        <activity android:name=".ShowAboutActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity_home" />
+    </application>
+
+</manifest>

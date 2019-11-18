@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListLocation">
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/list1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/kopiaceh"
+        android:onClick="deskripsi_kopi">
+
+    </Button>
+
+    <Button
+        android:id="@+id/list2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/list1"
+        android:onClick="deskripsi_kfc"
+        android:background="@drawable/kfc">
+    </Button>
+
+
+    <Button
+        android:id="@+id/list3"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/list2"
+        android:onClick="deskripsi_mcd"
+        android:background="@drawable/mcd">
+    </Button>
+    <Button
+        android:id="@+id/list4"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/list3"
+        android:onClick="deskripsi_yoshinoya"
+        android:background="@drawable/yoshinoya">
+    </Button>
+    <Button
+        android:id="@+id/list5"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/list4"
+        android:onClick="deskripsi_kobar"
+        android:background="@drawable/kobar">
+    </Button>
+    <Button
+        android:id="@+id/list6"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/list5"
+        android:onClick="deskripsi_kulo"
+        android:background="@drawable/kulo">
+    </Button>
+
+</RelativeLayout>
+
+</ScrollView>

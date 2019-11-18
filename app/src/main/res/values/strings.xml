@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Nongki Skuuy</string>
+
+    <string name="judul"><u>Tempat Nongkrong</u></string>
+    <string name="judul1"><u>PETA</u></string>
+    <string name="judul2"><u>Bantuan</u></string>
+    <string name="judul3"><u>Tentang Kami</u></string>
+
+
+    <string name="isi">Tempat nongkrong merupakan menu untuk mencari info info tempat nongkrong dari photo dan deskripsi tempat serta tersedia juga info makanan dan minuman di tempat tersebut</string>
+    <string name="isi1">Merupakan menu untuk mempermudah user mencari lokasi tempat nongkrong yang telah kami infokan</string>
+    <string name="isi2">Merupakan menu untuk membantu user memahami tombol serta menu yang ada diaplikasi kami</string>
+    <string name="isi3">merupakan menu yang berisi developer dari aplikasi Nongki Skuuy</string>
+
+    <string name="hello_fragment">Tempat Nongkrong segala umat , dengan harga yang murah bisa menjadi tempat nongkrong yang baik selama berjam jam dengan kecepatan koneksi internet yang  lumayan memadai</string>
+    <string name="deskripsi_kfc">Tempat Nongkrong segala umat , dengan harga yang murah bisa menjadi tempat nongkrong yang baik selama berjam jam dengan kecepatan koneksi internet yang  lumayan memadai</string>
+    <string name="deskripsi_mcd">Tempat Nongkrong segala umat , dengan harga yang murah bisa menjadi tempat nongkrong yang baik selama berjam jam dengan kecepatan koneksi internet yang  lumayan memadai</string>
+    <string name="deskripsi_yoshinoya"> Yoshinoya pernah membuka satu restorannya di Jakarta pada tahun 1994, akan tetapi tutup pada 1998 akibat krisis finansial 1997.Yoshinoya hadir kembali di Jakarta pada Juli 2010 dengan membuka rumah makan pertamanya di Grand Indonesia.Hingga Juni 2013 Yoshinoya tercatat telah memiliki 19 gerai di Indonesia, khususnya tersebar di wilayah Jakarta dan sekitarnya</string>
+    <string name="deskripsi_kobar"> Kobar Grill konsumen bisa menikmati daging sapi dan ayam yang dimasak sendiri dengan cara di grillAda tiga jenis daging sapi yang bisa jadi pilihan, yakni daging sapi lapis yang banyak lemak, daging sapi marbel yang lebih banyak daging dibanding lemak, dan daging sapi iga.</string>
+    <string name="deskripsi_kulo">Kedai Kopi Kulo yang berkonsep coffee to go ini memadukan jus alpukat, espresso, dan es krim vanila atau cokelat untuk menu Avocatto. Perpaduan yang unik ini memberikan rasa creamy dan sensasi segar.</string>
+    <string name="alamat">Jl. ZA. Pagar Alam No.52A, Gedong Meneng, Kec. Rajabasa, Kota Bandar Lampung, Lampung 35147</string>
+    <string name="alamat_mcd">Gg. Sumarjo, Labuhan Ratu, Kec. Kedaton, Kota Bandar Lampung, Lampung 35132</string>
+    <string name="alamat_kfc">Jl. ZA. Pagar Alam No.28, Labuhan Ratu, Kec. Kedaton, Kota Bandar Lampung, Lampung 35212</string>
+    <string name="alamat_yoshinoys"></string>
+    <string name="alamat_kobar"></string>
+    <string name="alamat_kulo"></string>
+    <string name="running_text">Nongki Skuuy merupakan aplikasi yang dibuat oleh mahasiswa Ilmu Komputer Universitas Lampung dengan tujuan untuk mempermudah user dalam mencari tempat Nongkrong dan Nyantai...</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="fragment_kfc">KFC (dulu dikenal dengan nama Kentucky Fried Chicken) adalah suatu merek dagang waralaba dari Yum! Brands, Inc., yang bermarkas di Louisville, Kentucky, Amerika Serikat. Didirikan oleh Col. Harland Sanders, KFC dikenal terutama karena ayam gorengnya, yang biasa disajikan dalam "timba" (bucket) dari kertas karton.</string>
+    <string name="fragment_mcd"> Restoran McDonalds pertama didirikan pada tahun 1940 oleh dua bersaudara Dick dan Mac McDonald, namun kemudian dibelinya oleh Ray Kroc dan diperluas ke seluruh dunia. Sampai pada tahun 2004, McDonalds memiliki 30.000 rumah makan di seluruh dunia dengan jumlah pengunjung rata-rata 50.000.000 orang dan pengunjung per hari dan rumah makan 1.700 orang.Pada 1 Oktober 2009 McDonalds berubah menjadi Tony Jacks Indonesia tetapi tidak seluruh gerai McDonalds.</string>
+
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">LANJUT</string>
+    <string name="skip">LEWATI</string>
+    <string name="start">MULAI</string>
+
+    <string name="slide_1_title">KULINER</string>
+    <string name="slide_1_desc">Rasakan Berbagai Kuliner yang Akan Memanjakan Lidahmu</string>
+
+    <string name="slide_2_title">HOTEL</string>
+    <string name="slide_2_desc">Temukan Hotel yang Nyaman Untuk Istirahat Perjalananmu</string>
+
+    <string name="slide_3_title">WISATA</string>
+    <string name="slide_3_desc">Destinasi Menarik Menantimu. Segera Pilih Destinasi Wisatamu</string>
+
+    <string name="slide_4_title">GUIDE</string>
+    <string name="slide_4_desc">Cari Guide Untuk Menemani Perjalananmu Agar  semakin asyik </string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="McDonald's"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:textColor="@color/warna"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Makanan Favorite"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        android:background="#F4A460">
+    </TextView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="187dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/makananmcd"></ImageView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="186dp"
+        android:background="@drawable/makananmcd2"></ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Minuman Favorite"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"
+        android:background="#F4A460">
+    </TextView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="177dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/minumanmcd">
+
+    </ImageView>
+
+
+    </LinearLayout>
+    </ScrollView>
